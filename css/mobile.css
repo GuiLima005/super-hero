@@ -1,0 +1,36 @@
+@media (max-width:640px) {
+
+    .menu {
+        display: none;
+    }
+
+    .heroi {
+        height: 280px;
+        width: 280px;
+    }
+    .title {
+        font-size: 2rem;
+    }
+
+    .busca{
+        width: 280px;
+    }
+
+    .box {
+        width: 300px;
+    }
+
+    .barra-total {
+        width: 225px;
+    }
+
+    .aparencia {
+        font-size: 1rem;
+    }
+    .biografia {
+        font-size: 1rem;
+    }
+
+
+
+}

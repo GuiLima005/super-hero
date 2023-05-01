@@ -1,0 +1,31 @@
+.conexoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 25px;
+    gap: 40px;
+}
+
+.afiliacao {
+    display: grid;
+    font-size: 1.4rem;
+    gap: 5px;
+}
+
+.parentes {
+    display: grid;
+    font-size: 1.4rem;
+    gap: 5px;
+}
+
+
+.conexoes h2 {
+    color: black;
+    font-weight: bolder;
+}
+
+.conexoes p {
+    color: rgba(34, 32, 32, 0.829);
+    font-weight: 500;
+}

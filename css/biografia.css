@@ -1,0 +1,16 @@
+.biografia {
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    padding: 5px 25px;
+}
+
+.biografia p {
+    color: black;
+    font-weight: bolder;
+}
+
+.biografia span {
+    color: rgba(34, 32, 32, 0.829);
+}
+

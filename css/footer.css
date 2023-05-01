@@ -1,0 +1,42 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(120, 120, 120, 1);
+    padding: 35px 96px;
+}
+.container-contato {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contato {
+    display: flex;
+    font-size: 1rem;
+    gap: 24px;
+}
+
+.container-social {
+    display: flex;
+    gap: 20px;
+}
+
+.social {
+    display: flex;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    font-size: 1.2rem;
+    transition: all 300ms ease-in-out;
+    cursor: pointer;
+
+}
+.social:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.3);
+}

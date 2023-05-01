@@ -1,0 +1,31 @@
+
+@media (max-width:960px) {
+
+    header {
+        padding: 0px;
+        justify-content: center;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        flex-direction: column;
+        height: 300px;
+        gap: 40px;
+    }
+
+    .container-social {
+        transform: translate(0px, -72px);
+    }
+    .container-copy{
+        transform: translate(0px, 80px);
+    }
+
+    .box {
+        width: 650px;
+    }
+
+}

@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 80px 1fr 140px;
+    color: white;
+    background-color: rgba(34, 31, 31, 0.75);
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 0 90px;
+    background-color: rgba(120, 120, 120, 1);
+    max-width: 100%;
+}
+
+.menu {
+    display: flex;
+    font-size: 1.5rem;
+    gap: 70px;
+}
+
+li {
+    cursor: pointer;
+
+}
+
+main {
+    display: grid;
+    grid-area: 'left right';
+    align-items: center;
+    grid-template-columns: 40% 60%;
+}
+
+.personagem {
+    display: flex;
+    justify-content: center;
+}
+
+.heroi {
+    height: 400px;
+    width: 400px;
+}
+
+.left {
+    display: grid;
+    grid-area: 'left';
+    align-items: center;
+    padding: 30px;
+    gap: 40px;
+    justify-content: center;
+}
+
+.right {
+    display: grid;
+    grid-area: 'right';
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    gap: 20px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+.busca {
+    display: flex;
+    position: relative;
+    width: 450px;
+    height: 35px;
+
+}
+
+input {
+    width: 100%;
+    padding-left: 15px;
+    border-radius: 50px;
+}
+
+.icon {
+    position: absolute;
+    top: 5px;
+    right: 12px;
+    z-index: 10;
+    font-size: 1.4rem;
+    color: black;
+}
+
+.box {
+    display: grid;
+    background-color: rgba(120, 120, 120, 1);
+    width: 750px;
+    height: 500px;
+    border-radius: 15px;
+}
