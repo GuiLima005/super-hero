@@ -1,7 +1,11 @@
 @media (max-width:640px) {
 
+ 
+
     .menu {
-        display: none;
+        /* display: none; */
+        font-size: .4rem;
+        
     }
 
     .heroi {
@@ -28,6 +32,22 @@
         font-size: 1rem;
     }
     .biografia {
+        font-size: 1.1rem;
+    }
+
+    .afiliacao  h2{
+        font-size: 1.5rem;
+    }
+
+    .afiliacao  p{
+        font-size: 1rem;
+    }
+
+    .parentes  h2{
+        font-size: 1.5rem;
+    }
+
+    .parentes  p{
         font-size: 1rem;
     }
 
