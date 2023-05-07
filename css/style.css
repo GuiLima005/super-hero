@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+:root {
+    --desktop-color: rgba(34, 31, 31, 0.75);;
+    --primary-color: rgba(120, 120, 120, 1);;
+}
+
 a {
     text-decoration: none;
 }
@@ -18,7 +23,7 @@ body {
     display: grid;
     grid-template-rows: 80px 1fr 140px;
     color: white;
-    background-color: rgba(34, 31, 31, 0.75);
+    background-color: var(--desktop-color);
     font-family: 'Roboto', sans-serif;
 }
 
@@ -27,7 +32,7 @@ header {
     align-items: center;
     justify-content: end;
     padding: 0 90px;
-    background-color: rgba(120, 120, 120, 1);
+    background-color: var(--primary-color);
     max-width: 100%;
 }
 
@@ -55,6 +60,7 @@ main {
 }
 
 .heroi {
+    border-radius: 50%;
     height: 400px;
     width: 400px;
 }
@@ -104,7 +110,7 @@ input {
     border-radius: 50px;
 }
 
-.icon {
+.button {
     position: absolute;
     top: 4.5px;
     right: 12px;
@@ -115,7 +121,7 @@ input {
 
 .box {
     display: grid;
-    background-color: rgba(120, 120, 120, 1);
+    background-color: var(--primary-color);
     width: 750px;
     height: 500px;
     border-radius: 15px;
@@ -128,9 +134,9 @@ input {
     border-radius: 5px;
     top: calc(100% + .2rem);
     left: 0;
-    background-color: rgba(120, 120, 120, 1);
+    background-color: var(--primary-color);
     width: 100%;
-    max-height: 190px;
+    max-height: 243px;
     overflow-y: scroll;
 }
 
@@ -148,7 +154,7 @@ input {
 .lista-busca-item {
     display: flex;
     align-items: center;
-    background-color:rgba(120, 120, 120, 1);
+    background-color:var(--primary-color);
     padding: .4rem 0;
 }
 .lista-busca-item img {

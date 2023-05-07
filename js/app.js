@@ -2,12 +2,11 @@
 
 const routes = {
 
-    '/': '/pages/powerstatus.html',
+    '/': '/pages/powerstats.html',
     '/biografia': '/pages/biografia.html',
     '/aparencia': '/pages/aparencia.html',
     '/conexoes': '/pages/conexoes.html',
 }
-
 
 const route = async () => {
 
@@ -22,7 +21,6 @@ const route = async () => {
     const html = await response.text()
 
     document.getElementById('root').innerHTML = html
-
 }
 
 window.route = route

@@ -1,8 +1,7 @@
 .conexoes {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-evenly;
     padding: 25px 25px;
     gap: 40px;
 }
