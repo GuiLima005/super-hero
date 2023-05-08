@@ -13,8 +13,11 @@ a {
     text-decoration: none;
 }
 
-ul,
-li {
+a:-webkit-any-link {
+    color: white;
+}
+
+ul,li {
     list-style: none;
 }
 
@@ -22,7 +25,7 @@ body {
     height: 100vh;
     display: grid;
     grid-template-rows: 80px 1fr 140px;
-    color: white;
+    color: rgb(255, 255, 255);
     background-color: var(--desktop-color);
     font-family: 'Roboto', sans-serif;
 }
