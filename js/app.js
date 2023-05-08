@@ -2,10 +2,10 @@
 
 const routes = {
 
-    '/': '/pages/powerstats.html',
-    '/biografia': '/pages/biografia.html',
-    '/aparencia': '/pages/aparencia.html',
-    '/conexoes': '/pages/conexoes.html',
+    '/super-hero': '/pages/powerstats.html',
+    '/super-hero/biografia': '/pages/biografia.html',
+    '/super-hero/aparencia': '/pages/aparencia.html',
+    '/super-hero/conexoes': '/pages/conexoes.html',
 }
 
 const route = async () => {
