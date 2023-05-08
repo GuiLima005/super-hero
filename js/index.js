@@ -10,6 +10,7 @@ const searchForm = document.querySelector('.busca')
 // a imagem e o nome do super-herói na caixa do input
 const searchList = document.getElementById('lista-busca')
 
+// Variavel que armazena todas as informações obtidas da API.
 let allData;
 
 // Função para pegar o valor(escrita) no input
