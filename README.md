@@ -7,7 +7,7 @@
 [Clique aqui](https://guilima005.github.io/super-hero/) para acessar o site!
 
 ## **Sobre** 
-Site consumido pela API [Super Hero](https://www.superheroapi.com/). O objetivo deste projeto é colocar em prática os conhecimentos adquiridos no curso do [Senai Jandira](https://jandira.sp.senai.br/) na criação de web sites e adquirir conhecimento sobre outras coisas das quais não foram abordadas no curso.
+Site que faz uma busca por heróis em uma API de [Super-Heróis](https://www.superheroapi.com/) e mostra seus detalhes em uma página web. O objetivo deste projeto é colocar em prática os conhecimentos adquiridos no curso do [Senai Jandira](https://jandira.sp.senai.br/) na criação de web sites e adquirir conhecimento sobre outras coisas das quais não foram abordadas no curso.
 
 ---
 

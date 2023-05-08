@@ -100,13 +100,13 @@ searchList.addEventListener('click', (event) => {
 
     searchList.innerHTML = ""
 
-    // console.log(searchId)
+    console.log(searchId)
 })
 
 // Função para exibir as informações na tela.
 const showSuperheroDetails = (data) => {
 
-    // console.log(data)
+    console.log(data)
 
     document.querySelector('.personagem').innerHTML = `
         <img class = "heroi" src = "${data.image.url}">
